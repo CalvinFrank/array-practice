@@ -1,8 +1,9 @@
 function App() {
+  const url = "localhost:5173"
   return (
     <div className="App">
       <header className="header">
-        <h1 className="header-h1">Tables</h1>
+        <h1 className="header-h1" onClick={() => console.log("url:", url)}> Tables </h1>
         <h1 className="header-h1">addition</h1>
         <h1 className="header-h1">subtraction</h1>
         <h1 className="header-h1">multiplcation</h1>
