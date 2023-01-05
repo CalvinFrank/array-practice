@@ -8,6 +8,7 @@ function App() {
         <h1 className="header-h1">multiplcation</h1>
         <h1 className="header-h1">division</h1>
       </header>
+      <p className="intro">Hello and welcome to Tables©. this is a webpage that tells you diffrent kinds of tables.</p>
     </div>
   )
 }
