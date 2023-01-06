@@ -32,10 +32,10 @@ function App() {
     <div className="App">
       <header className="header">
         <h1 className="header-h1" onClick={() => setSelectedPage('calculator')}> Calculators© </h1>
-        <h1 className="header-h1" onClick={() => setSelectedPage('add')}>addition</h1>
-        <h1 className="header-h1" onClick={() => setSelectedPage('sub')}>subtraction</h1>
-        <h1 className="header-h1" onClick={() => setSelectedPage('mul')}>multiplication</h1>
-        <h1 className="header-h1" onClick={() => setSelectedPage('div')}>division</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage('add')}>Addition</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage('sub')}>Subtraction</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage('mul')}>Multiplication</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage('div')}>Division</h1>
       </header>
       <p className="intro">Hello and welcome to Calculators©. This webpage tells you diffrent kinds of calculator.</p>
       { mainContent }
