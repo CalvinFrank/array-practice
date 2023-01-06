@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div className="homediv">
-            <p>put your suggestions for calculators below!</p> 
+            <p>Put your suggestions for calculators below!</p> 
             <div className="suggestions">
                 <input type="text" /> 
                 <button>Enter</button>

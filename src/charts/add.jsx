@@ -1,12 +1,13 @@
 function Add() {
+  return (
+    <div className="add">
+      <p>put in the two numbers you want to add</p>
+      <input type="text" />
+      <p>+</p>
+      <input type="text" />
+      <button>Submit</button>
+    </div>
+  );
+}
 
-    return (
-      <div className="Add">
-        <h1>Coming Soon... an Addition calculator</h1>
-        <div className="add-calc">
-        </div>
-      </div>
-    )
-  }
-  
-  export default Add
+export default Add;
