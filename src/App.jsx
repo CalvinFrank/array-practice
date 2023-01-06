@@ -8,7 +8,7 @@ import Home from './home';
 function App() {
   const [selectedPage, setSelectedPage] = useState('tables');
 
-  let mainContent = ( <p>This is the main content</p> );
+  let mainContent = ( <p></p> );
 
   switch(selectedPage) {
     case 'tables':
@@ -28,7 +28,6 @@ function App() {
       break;
   }
 
-  const url = "localhost:5173";
   return (
     <div className="App">
       <header className="header">
@@ -38,7 +37,7 @@ function App() {
         <h1 className="header-h1" onClick={() => setSelectedPage('mul')}>multiplication</h1>
         <h1 className="header-h1" onClick={() => setSelectedPage('div')}>division</h1>
       </header>
-      <p className="intro">Hello and welcome to Tables©. this is a webpage that tells you diffrent kinds of tables.</p>
+      <p className="intro">Hello and welcome to Tables©. This webpage tells you diffrent kinds of tables.</p>
       { mainContent }
     </div>
   )

@@ -1,7 +1,7 @@
 function Add() {
     return (
       <div className="Add">
-        <h1>Coming Soon...an addition chart</h1>
+        <h1>Coming Soon... an Addition Chart</h1>
       </div>
     )
   }
