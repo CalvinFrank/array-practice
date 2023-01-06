@@ -6,12 +6,12 @@ import Sub from "./charts/sub"
 import Home from './home';
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState('tables');
+  const [selectedPage, setSelectedPage] = useState('calculator');
 
   let mainContent = ( <p></p> );
 
   switch(selectedPage) {
-    case 'tables':
+    case 'calculator':
       mainContent = <Home />;
       break;
     case 'add':
@@ -31,13 +31,13 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1 className="header-h1" onClick={() => setSelectedPage('tables')}> Tables </h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage('calculator')}> Calculators© </h1>
         <h1 className="header-h1" onClick={() => setSelectedPage('add')}>addition</h1>
         <h1 className="header-h1" onClick={() => setSelectedPage('sub')}>subtraction</h1>
         <h1 className="header-h1" onClick={() => setSelectedPage('mul')}>multiplication</h1>
         <h1 className="header-h1" onClick={() => setSelectedPage('div')}>division</h1>
       </header>
-      <p className="intro">Hello and welcome to Tables©. This webpage tells you diffrent kinds of tables.</p>
+      <p className="intro">Hello and welcome to Calculators©. This webpage tells you diffrent kinds of calculator.</p>
       { mainContent }
     </div>
   )
