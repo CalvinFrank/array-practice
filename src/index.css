@@ -8,5 +8,10 @@
   margin: 17px;
 }
 .intro {
-  margin: 26px;
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.homediv {
+  margin-left: 29px;
+  margin-top: 4;
 }
