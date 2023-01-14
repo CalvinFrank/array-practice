@@ -3,7 +3,6 @@ import { useState } from "react";
 function Add() {
   // const [num1, setNum1] = useState();
   const [sum, setSum] = useState(0);
-
   function handleSubmit(e) {
     e.preventDefault();
     setSum(Number(aNum1.value)+Number(aNum2.value));
@@ -15,7 +14,7 @@ function Add() {
       <form className="aForm">
         <input type="text" id="aNum1"/>
         <p className="plus">+</p>
-        <div className="submitRow">
+        <div className="aSubmitRow">
             <input type="text" id="aNum2"/>
             <button type="submit" className="aSubmitBtn" onClick={handleSubmit}>Submit</button>
         </div>

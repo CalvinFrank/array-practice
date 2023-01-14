@@ -1,3 +1,4 @@
+/*---------------⇣⇣⇣⇣Other⇣⇣⇣⇣⇣-----------------*/
 .header {
   height: 50px;
   color: grey;
@@ -15,6 +16,8 @@
   margin-left: 29px;
   margin-top: 4;
 }
+/*----------^^^^^Other^^^^^------------*/
+/*----------------⇣⇣⇣⇣Add⇣⇣⇣⇣-----------------*/
 .add {
   margin-left: 26px;
   margin-top: 26px;
@@ -34,7 +37,7 @@
 .aSum {
   text-align: center;
 }
-.submitRow {
+.aSubmitRow {
   position: relative;
 }
 .aSubmitBtn {
@@ -44,3 +47,42 @@
   max-width: 210.5px;
   position: absolute;
 }
+/*--------^^^^Add^^^^----------*/
+
+/*--------⇣⇣⇣⇣Sub⇣⇣⇣⇣----------*/
+.sub {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.minus {
+  margin-left: 72px;
+}
+#sNum1{
+  text-align: center;
+}
+#sNum2 {
+  text-align: center;
+}
+.sEqual {
+  text-align: center;
+}
+.sSum {
+  text-align: center;
+}
+.sSubmitRow {
+  position: relative;
+}
+.sSubmitBtn {
+  position: absolute;
+}
+.sForm {
+  max-width: 210.5px;
+  position: absolute;
+}
+/*--------^^^^Sub^^^^----------*/
+
+/*--------⇣⇣⇣⇣Mul⇣⇣⇣⇣----------*/
+/*--------^^^^Mul^^^^----------*/
+
+/*--------⇣⇣⇣⇣Div⇣⇣⇣⇣----------*/
+/*--------^^^^Div^^^^----------*/
