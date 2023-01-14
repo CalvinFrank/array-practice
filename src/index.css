@@ -19,3 +19,28 @@
   margin-left: 26px;
   margin-top: 26px;
 }
+.plus {
+  margin-left: 72px;
+}
+#aNum1{
+  text-align: center;
+}
+#aNum2 {
+  text-align: center;
+}
+.aEqual {
+  text-align: center;
+}
+.aSum {
+  text-align: center;
+}
+.submitRow {
+  position: relative;
+}
+.aSubmitBtn {
+  position: absolute;
+}
+.aForm {
+  max-width: 210.5px;
+  position: absolute;
+}

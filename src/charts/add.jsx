@@ -1,19 +1,27 @@
 import { useState } from "react";
 
 function Add() {
-    // const [num1, setNum1] = useState();
+  // const [num1, setNum1] = useState();
   const [sum, setSum] = useState(0);
 
-
+  function handleSubmit(e) {
+    e.preventDefault();
+    setSum(Number(aNum1.value)+Number(aNum2.value));
+  }
   return (
     <div className="add">
-      <p>put in the two numbers you want to add</p>
-      <input type="text" id="num1"/>
-      <p>+</p>
-      <input type="text" id="num2"/>
-      <button type="submit" onClick={() => setSum(Number(num1.value)+Number(num2.value))}>Submit</button>
-      <br />
-      {sum}
+      <p>Put in the two numbers you want to add.</p>
+      
+      <form className="aForm">
+        <input type="text" id="aNum1"/>
+        <p className="plus">+</p>
+        <div className="submitRow">
+            <input type="text" id="aNum2"/>
+            <button type="submit" className="aSubmitBtn" onClick={handleSubmit}>Submit</button>
+        </div>
+        <p className="aEqual">=</p>
+        <p className="aSum">{sum}</p>
+      </form>
     </div>
   );
 }
