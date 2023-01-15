@@ -114,4 +114,33 @@
 /*--------^^^^Mul^^^^----------*/
 
 /*--------⇣⇣⇣⇣Div⇣⇣⇣⇣----------*/
+.div {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.divide {
+  margin-left: 72px;
+}
+#dNum1{
+  text-align: center;
+}
+#dNum2 {
+  text-align: center;
+}
+.dEqual {
+  text-align: center;
+}
+.dSum {
+  text-align: center;
+}
+.dSubmitRow {
+  position: relative;
+}
+.dSubmitBtn {
+  position: absolute;
+}
+.dForm {
+  max-width: 210.5px;
+  position: absolute;
+}
 /*--------^^^^Div^^^^----------*/

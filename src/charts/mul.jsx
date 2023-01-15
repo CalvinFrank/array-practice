@@ -9,7 +9,7 @@ function Mul() {
     <div className="mul">
       <p>Put in the two numbers you want to multiply.</p>
       
-      <form className="sForm">
+      <form className="mForm">
         <input type="text" id="mNum1"/>
         <p className="times">×</p>
         <div className="mSubmitRow">
