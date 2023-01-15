@@ -6,7 +6,7 @@ function Sub() {
     setSum(Number(sNum1.value)-Number(sNum2.value));
   }
   return (
-    <div className="add">
+    <div className="sub">
       <p>Put in the two numbers you want to subtract.</p>
       
       <form className="sForm">

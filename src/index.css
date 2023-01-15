@@ -82,6 +82,35 @@
 /*--------^^^^Sub^^^^----------*/
 
 /*--------⇣⇣⇣⇣Mul⇣⇣⇣⇣----------*/
+.mul {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.times {
+  margin-left: 72px;
+}
+#mNum1{
+  text-align: center;
+}
+#mNum2 {
+  text-align: center;
+}
+.mEqual {
+  text-align: center;
+}
+.mSum {
+  text-align: center;
+}
+.mSubmitRow {
+  position: relative;
+}
+.mSubmitBtn {
+  position: absolute;
+}
+.mForm {
+  max-width: 210.5px;
+  position: absolute;
+}
 /*--------^^^^Mul^^^^----------*/
 
 /*--------⇣⇣⇣⇣Div⇣⇣⇣⇣----------*/
