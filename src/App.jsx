@@ -38,8 +38,7 @@ function App() {
         <h1 className="header-h1" onClick={() => setSelectedPage("div")}>Division</h1>
       </header>
       <p className="intro">
-        Hello and welcome to Calculators©. This webpage tells you diffrent kinds
-        of calculators.
+        Hello and welcome to Calculators©.  This app will help you with your calculations.
       </p>
       {mainContent}
     </div>
