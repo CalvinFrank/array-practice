@@ -15,6 +15,7 @@ function Home() {
                 <input type="text" id="suggestBox"/> 
                 <button onClick={suggest}>Enter</button>
                 <div>{...suggestionElements}</div>
+                <p className="note">*Note: This will not save.</p>
             </div>
         </div>
     )
