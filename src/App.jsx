@@ -1,34 +1,48 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from "react";
+import Add from "./charts/add";
+import Div from "./charts/div";
+import Mul from "./charts/mul";
+import Sub from "./charts/sub";
+import Home from "./home";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedPage, setSelectedPage] = useState("calculator");
+
+  let mainContent = <p></p>;
+
+  switch (selectedPage) {
+    case "calculator":
+      mainContent = <Home />;
+      break;
+    case "add":
+      mainContent = <Add />;
+      break;
+    case "sub":
+      mainContent = <Sub />;
+      break;
+    case "mul":
+      mainContent = <Mul />;
+      break;
+    case "div":
+      mainContent = <Div />;
+      break;
+  }
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <header className="header">
+        <h1 className="header-h1" onClick={() => setSelectedPage("calculator")}>Calculators©</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage("add")}>Addition</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage("sub")}>Subtraction</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage("mul")}>Multiplication</h1>
+        <h1 className="header-h1" onClick={() => setSelectedPage("div")}>Division</h1>
+      </header>
+      <p className="intro">
+        Hello and welcome to Calculators©.  This app will help you with your calculations.
       </p>
+      {mainContent}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

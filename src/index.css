@@ -1,70 +1,151 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+/*-----------------⇣⇣⇣⇣home⇣⇣⇣⇣⇣-----------------*/
+.header {
+  height: 50px;
+  color: grey;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin-bottom: 12px;
 }
+.header-h1 {
+  margin: 17px;
+}
+.intro {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.homediv {
+  margin-left: 29px;
+  margin-top: 4;
+}
+.note {
+  color: gray;
+  font-size: 14.7px;
+}
+/*----------------^^^^home^^^^----------------*/
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/*----------------⇣⇣⇣⇣Add⇣⇣⇣⇣-----------------*/
+.add {
+  margin-left: 26px;
+  margin-top: 26px;
 }
+.plus {
+  margin-left: 72px;
+}
+#aNum1{
+  text-align: center;
+}
+#aNum2 {
+  text-align: center;
+}
+.aEqual {
+  text-align: center;
+}
+.aSum {
+  text-align: center;
+}
+.aSubmitRow {
+  position: relative;
+}
+.aSubmitBtn {
+  position: absolute;
+}
+.aForm {
+  max-width: 210.5px;
+  position: absolute;
+}
+/*--------^^^^Add^^^^----------*/
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/*--------⇣⇣⇣⇣Sub⇣⇣⇣⇣----------*/
+.sub {
+  margin-left: 26px;
+  margin-top: 26px;
 }
-button:hover {
-  border-color: #646cff;
+.minus {
+  margin-left: 72px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+#sNum1{
+  text-align: center;
 }
+#sNum2 {
+  text-align: center;
+}
+.sEqual {
+  text-align: center;
+}
+.sSum {
+  text-align: center;
+}
+.sSubmitRow {
+  position: relative;
+}
+.sSubmitBtn {
+  position: absolute;
+}
+.sForm {
+  max-width: 210.5px;
+  position: absolute;
+}
+/*--------^^^^Sub^^^^----------*/
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/*--------⇣⇣⇣⇣Mul⇣⇣⇣⇣----------*/
+.mul {
+  margin-left: 26px;
+  margin-top: 26px;
 }
+.times {
+  margin-left: 72px;
+}
+#mNum1{
+  text-align: center;
+}
+#mNum2 {
+  text-align: center;
+}
+.mEqual {
+  text-align: center;
+}
+.mSum {
+  text-align: center;
+}
+.mSubmitRow {
+  position: relative;
+}
+.mSubmitBtn {
+  position: absolute;
+}
+.mForm {
+  max-width: 210.5px;
+  position: absolute;
+}
+/*--------^^^^Mul^^^^----------*/
+
+/*--------⇣⇣⇣⇣Div⇣⇣⇣⇣----------*/
+.div {
+  margin-left: 26px;
+  margin-top: 26px;
+}
+.divide {
+  margin-left: 72px;
+}
+#dNum1{
+  text-align: center;
+}
+#dNum2 {
+  text-align: center;
+}
+.dEqual {
+  text-align: center;
+}
+.dSum {
+  text-align: center;
+}
+.dSubmitRow {
+  position: relative;
+}
+.dSubmitBtn {
+  position: absolute;
+}
+.dForm {
+  max-width: 210.5px;
+  position: absolute;
+}
+/*--------^^^^Div^^^^----------*/
